@@ -1,0 +1,20 @@
+<p>alumnos module works!</p>
+
+<nav>
+    <h2>Menu Alumnos</h2>
+    <ul>
+        <!-- <li><a [routerLink]="[{ outlets: { sub: [subRouteName] } }]" >Calificaciones</a></li> -->
+        <li><a [routerLink]="'/'" >Inicio</a></li>
+        <li><a [routerLink]="'/alumnos/cal'" >Cal</a></li>
+        <li><a [routerLink]="'/alumnos/hor'" >Hor</a></li>
+        <li><a [routerLink]="'/alumnos/res'" >Res</a></li>
+
+        <!-- <li><a [routerLink]="['/', 'alumnos', { outlets: { sub: ['cal2'] } }]">Calificiones</a></li> -->
+
+    </ul>
+</nav>
+
+<h3>Inicia outlet</h3>
+<router-outlet></router-outlet>
+<h3>Termina outlet</h3>
+

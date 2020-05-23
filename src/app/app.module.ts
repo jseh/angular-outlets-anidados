@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { COtroComponent } from './c-otro/c-otro.component';
+import { CErrorComponent } from './c-error/c-error.component';
+import { COkeyComponent } from './c-okey/c-okey.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    COtroComponent,
+    CErrorComponent,
+    COkeyComponent
   ],
   imports: [
     BrowserModule,
