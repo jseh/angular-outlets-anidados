@@ -14,7 +14,8 @@ const routes: Routes = [
     path: '', 
     component: AlumnosComponent,
     children: [
-
+      // es importante colocar las rutas dentro de children, de lo contrario se mostraran en el outlet en el que se carga '',
+      // si lo pongo en children se cargaran  dentro del outlet que contiene  AlumnosComponent
       { 
         // define la pantalla del outlet por defecto
         path: '',
